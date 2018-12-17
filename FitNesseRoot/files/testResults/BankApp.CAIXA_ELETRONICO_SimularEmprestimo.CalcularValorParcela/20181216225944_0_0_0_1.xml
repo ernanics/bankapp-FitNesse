@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20180127</FitNesseVersion>
+  <rootPath>BankApp.CAIXA_ELETRONICO_SimularEmprestimo.CalcularValorParcela</rootPath>
+    <executionLog>
+    <testSystem>fit:fitlibrary.suite.FitLibraryServer</testSystem>
+    <command>java -cp /Users/ernani/Documents/GitHub/bankapp-FitNesse/bankapp:/Users/ernani/Documents/GitHub/bankapp-FitNesse/fitnesse-standalone.jar:/Users/ernani/Documents/GitHub/bankapp-FitNesse/fitlibrary-2.0.jar fitlibrary.suite.FitLibraryServer Ernanis-MacBook-Pro.local 52153 3863</command>
+    <exitCode>1</exitCode>
+    <stdOut></stdOut>
+    <stdErr>Exception in thread "main" java.lang.NoClassDefFoundError: org/apache/log4j/Logger
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:802)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:700)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:623)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at fit.FitServerBridge.&lt;clinit&gt;(FitServerBridge.java:32)
+Caused by: java.lang.ClassNotFoundException: org.apache.log4j.Logger
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 10 more
+</stdErr>
+    <exception>FitClient external process terminated before a connection could be established</exception>
+    <exception>FitClient external process terminated before a connection could be established</exception>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>1197</totalRunTimeInMillis>
+</testResults>
+

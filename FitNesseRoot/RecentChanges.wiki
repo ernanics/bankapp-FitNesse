@@ -1,0 +1,6 @@
+|BankApp||23:00:25 Sun, Dec 16, 2018|
+|BankApp.CAIXA_ELETRONICO_SimularEmprestimo.CalcularValorParcela||22:46:27 Sun, Dec 16, 2018|
+|BankApp.CAIXA_ELETRONICO_SimularEmprestimo||22:14:18 Sun, Dec 16, 2018|
+|BankApp.CAIXA_ELETRONICO_SacarDinheiro||22:11:23 Sun, Dec 16, 2018|
+|BankApp.CAIXAELETRONICO_Sacar||22:10:39 Sun, Dec 16, 2018|
+|FrontPage||22:09:02 Sun, Dec 16, 2018|
