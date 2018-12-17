@@ -1,0 +1,17 @@
+!contents -R2 -g -p -f -h
+Testes de aceitação
+
+
+Configuração
+
+
+Configuração da engine para execução dos testes 
+!define TEST_RUNNER {fitlibrary.suite.FitLibraryServer}
+
+Localização das Fixtures (glue code)
+!path /Users/ernani/Documents/GitHub/bankapp-FitNesse/bankapp
+
+Biblioteca FitLibrary e dependências
+!path /Users/ernani/Documents/GitHub/bankapp-FitNesse/fitnesse-standalone.jar
+!path /Users/ernani/Documents/GitHub/bankapp-FitNesse/fitlibrary-2.0.jar
+!path /Users/ernani/Documents/GitHub/bankapp-FitNesse/lib/*.jar
