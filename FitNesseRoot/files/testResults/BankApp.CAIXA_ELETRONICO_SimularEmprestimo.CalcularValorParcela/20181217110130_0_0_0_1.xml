@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20180127</FitNesseVersion>
+  <rootPath>BankApp.CAIXA_ELETRONICO_SimularEmprestimo.CalcularValorParcela</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>6</exceptions>
+    </counts>
+    <date>2018-12-17T11:01:30-02:00</date>
+    <runTimeInMillis>5</runTimeInMillis>
+    <content>&lt;br/&gt;&amp;lt;test page&amp;gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="5" class="error"&gt;br.ufsc.acceptanceTests.fit.fixtures.CalculateEMIColumnFixture&lt;hr/&gt; &lt;span class="fit_label"&gt;Missing class or Missing method. Possibly:&lt;ul&gt;&lt;li&gt;public Type getBrDotUfscDotAcceptanceTestsDotFitDotFixturesDotCalculateEMIColumnFixture() { }&lt;/li&gt;&lt;li&gt;public Type brDotUfscDotAcceptanceTestsDotFitDotFixturesDotCalculateEMIColumnFixture() { }&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;loan amount&lt;hr/&gt; &lt;span class="fit_label"&gt;Missing class or Missing method. Possibly:&lt;ul&gt;&lt;li&gt;public Type loanAmountNumberOfMonthlyInstalmentsLoanAmountWithInterestsQuestion(Type1 arg1, Type2 arg2) { }&lt;/li&gt;&lt;li&gt;public Type loanAmount(Type p1, Type p2, Type p3, Type p4) {}&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;interest per month&lt;/td&gt;
+		&lt;td&gt;number of monthly instalments&lt;/td&gt;
+		&lt;td&gt;equated monthly installment?&lt;/td&gt;
+		&lt;td&gt;loan amount with interests?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;10000.00&lt;hr/&gt; &lt;span class="fit_label"&gt;Missing class or Missing method. Possibly:&lt;ul&gt;&lt;li&gt;public Type one0000Dot001210350Dot09(Type1 arg1, Type2 arg2) { }&lt;/li&gt;&lt;li&gt;public Type one0000Dot00(Type p1, Type p2, Type p3, Type p4) {}&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;0.5334&lt;/td&gt;
+		&lt;td&gt;12&lt;/td&gt;
+		&lt;td&gt;862.51&lt;/td&gt;
+		&lt;td&gt;10350.09&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;100000000.00&lt;hr/&gt; &lt;span class="fit_label"&gt;Missing class or Missing method. Possibly:&lt;ul&gt;&lt;li&gt;public Type one00000000Dot0036106082123Dot23(Type1 arg1, Type2 arg2) { }&lt;/li&gt;&lt;li&gt;public Type one00000000Dot00(Type p1, Type p2, Type p3, Type p4) {}&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;0.3227&lt;/td&gt;
+		&lt;td&gt;36&lt;/td&gt;
+		&lt;td&gt;2946725.65&lt;/td&gt;
+		&lt;td&gt;106082123.23&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;500.00&lt;hr/&gt; &lt;span class="fit_label"&gt;Missing class or Missing method. Possibly:&lt;ul&gt;&lt;li&gt;public Type five00Dot005501Dot88(Type1 arg1, Type2 arg2) { }&lt;/li&gt;&lt;li&gt;public Type five00Dot00(Type p1, Type p2, Type p3, Type p4) {}&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;0.1250&lt;/td&gt;
+		&lt;td&gt;5&lt;/td&gt;
+		&lt;td&gt;100.38&lt;/td&gt;
+		&lt;td&gt;501.88&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;3250500.00&lt;hr/&gt; &lt;span class="fit_label"&gt;Missing class or Missing method. Possibly:&lt;ul&gt;&lt;li&gt;public Type three250500Dot00724241659Dot83(Type1 arg1, Type2 arg2) { }&lt;/li&gt;&lt;li&gt;public Type three250500Dot00(Type p1, Type p2, Type p3, Type p4) {}&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;0.7665&lt;/td&gt;
+		&lt;td&gt;72&lt;/td&gt;
+		&lt;td&gt;58911.94&lt;/td&gt;
+		&lt;td&gt;4241659.83&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>CalcularValorParcela</relativePageName>
+          </result>
+  <executionLog>
+    <testSystem>fit:fitlibrary.suite.FitLibraryServer</testSystem>
+    <command>java -cp C:/Users/ernani/git/bankapp-FitNesse/src/test/java/;C:/Users/ernani/git/bankapp-FitNesse/fitnesse-standalone.jar;C:/Users/ernani/git/bankapp-FitNesse/fitlibrary-2.0.jar;C:\Users\ernani\git\bankapp-FitNesse\lib\fitbook.jar;C:\Users\ernani\git\bankapp-FitNesse\lib\hamcrest-all-1.2.jar;C:\Users\ernani\git\bankapp-FitNesse\lib\jmock-2.5.1.jar;C:\Users\ernani\git\bankapp-FitNesse\lib\jmock-junit4-2.5.1.jar;C:\Users\ernani\git\bankapp-FitNesse\lib\junit-4.6.jar;C:\Users\ernani\git\bankapp-FitNesse\lib\log4j-1.2.16.jar;C:\Users\ernani\git\bankapp-FitNesse\lib\ognl-2.7.2.jar;C:\Users\ernani\git\bankapp-FitNesse\lib\poi-3.1-FINAL-20080629.jar;C:\Users\ernani\git\bankapp-FitNesse\lib\rentEz.jar fitlibrary.suite.FitLibraryServer DTI349217 55697 3863</command>
+    <exitCode>6</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>723</totalRunTimeInMillis>
+</testResults>
+

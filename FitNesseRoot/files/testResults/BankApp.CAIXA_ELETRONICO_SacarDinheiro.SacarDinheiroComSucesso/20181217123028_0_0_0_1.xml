@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20180127</FitNesseVersion>
+  <rootPath>BankApp.CAIXA_ELETRONICO_SacarDinheiro.SacarDinheiroComSucesso</rootPath>
+    <result>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>1</exceptions>
+    </counts>
+    <date>2018-12-17T12:30:28-02:00</date>
+    <runTimeInMillis>19</runTimeInMillis>
+    <content>&lt;br/&gt;&amp;lt;test page&amp;gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="7"&gt;br.ufsc.fit.fixtures.WithDrawnSetUpFixtureTest&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;id&lt;/td&gt;
+		&lt;td&gt;user&lt;/td&gt;
+		&lt;td&gt;account&lt;/td&gt;
+		&lt;td&gt;balance&lt;/td&gt;
+		&lt;td&gt;card number&lt;/td&gt;
+		&lt;td&gt;pin&lt;/td&gt;
+		&lt;td&gt;Number of bills of 5, 10, 20, 50 and 100, respectively&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;J.F. Piper&lt;/td&gt;
+		&lt;td&gt;125654-08&lt;/td&gt;
+		&lt;td&gt;90.00&lt;/td&gt;
+		&lt;td&gt;99998888777766665555&lt;/td&gt;
+		&lt;td&gt;123456&lt;/td&gt;
+		&lt;td&gt;0,200,0,150,100&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3"&gt;ActionFixture&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td colspan="2"&gt;br.ufsc.fit.fixtures.WithDrawActionFixtureTest&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;card&lt;/td&gt;
+		&lt;td&gt;99998888777766665555&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;amount&lt;/td&gt;
+		&lt;td&gt;30.00&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;press&lt;/td&gt;
+		&lt;td colspan="2"&gt;OK&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isValidAmount&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;PIN&lt;/td&gt;
+		&lt;td&gt;123456&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;press&lt;/td&gt;
+		&lt;td colspan="2"&gt;Confirm&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isValidPIN&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;error&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;balance&lt;/td&gt;
+		&lt;td class="error"&gt;60.00&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.Exception: Account not found!
+	at br.ufsc.model.Bank.getAccountByCardNumber(Bank.java:39)
+	at br.ufsc.fit.fixtures.WithDrawActionFixtureTest.balance(WithDrawActionFixtureTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at fit.TypeAdapter.invoke(TypeAdapter.java:108)
+	at fit.TypeAdapter.get(TypeAdapter.java:97)
+	at fit.Fixture$CellComparator.compareCellToResult(Fixture.java:374)
+	at fit.Fixture$CellComparator.access$100(Fixture.java:360)
+	at fit.Fixture.compareCellToResult(Fixture.java:302)
+	at fit.Fixture.check(Fixture.java:298)
+	at fit.ActionFixture.check(ActionFixture.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at fit.ActionFixture.doCells(ActionFixture.java:22)
+	at fit.Fixture.doRow(Fixture.java:168)
+	at fit.Fixture.doRows(Fixture.java:162)
+	at fit.Fixture.doTable(Fixture.java:156)
+	at fitlibrary.traverse.FitHandler.doTable(FitHandler.java:18)
+	at fitlibrary.flow.DoFlowOnTable.runTable(DoFlowOnTable.java:110)
+	at fitlibrary.flow.DoFlowOnTable.runTable(DoFlowOnTable.java:56)
+	at fitlibrary.flow.DoFlow.runTable(DoFlow.java:104)
+	at fitlibrary.flow.DoFlow.runSingleTable(DoFlow.java:89)
+	at fitlibrary.flow.DoFlowWithExtraTableAddedWhenNeeded.runStorytest(DoFlowWithExtraTableAddedWhenNeeded.java:33)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:92)
+	at fitlibrary.suite.BatchFitLibrary.doStorytest(BatchFitLibrary.java:50)
+	at fitlibrary.suite.BatchFitLibrary.doTables(BatchFitLibrary.java:107)
+	at fitlibrary.suite.FitLibraryServer.doTables(FitLibraryServer.java:36)
+	at fitlibrary.suite.FitLibraryServer.doTables(FitLibraryServer.java:28)
+	at fit.FitServerBridge.process(FitServerBridge.java:76)
+	at fit.FitServerBridge.run(FitServerBridge.java:60)
+	at fitlibrary.suite.FitLibraryServer.main(FitLibraryServer.java:54)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>SacarDinheiroComSucesso</relativePageName>
+          </result>
+  <executionLog>
+    <testSystem>fit:fitlibrary.suite.FitLibraryServer</testSystem>
+    <command>java -cp C:/Users/ernani/git/bankapp-FitNesse/bin;C:/Users/ernani/git/bankapp-FitNesse/fitnesse-standalone.jar;C:/Users/ernani/git/bankapp-FitNesse/fitlibrary-2.0.jar;C:\Users\ernani\git\bankapp-FitNesse\lib\fitbook.jar;C:\Users\ernani\git\bankapp-FitNesse\lib\hamcrest-all-1.2.jar;C:\Users\ernani\git\bankapp-FitNesse\lib\jmock-2.5.1.jar;C:\Users\ernani\git\bankapp-FitNesse\lib\jmock-junit4-2.5.1.jar;C:\Users\ernani\git\bankapp-FitNesse\lib\junit-4.6.jar;C:\Users\ernani\git\bankapp-FitNesse\lib\log4j-1.2.16.jar;C:\Users\ernani\git\bankapp-FitNesse\lib\ognl-2.7.2.jar;C:\Users\ernani\git\bankapp-FitNesse\lib\poi-3.1-FINAL-20080629.jar;C:\Users\ernani\git\bankapp-FitNesse\lib\rentEz.jar fitlibrary.suite.FitLibraryServer DTI349217 58798 3863</command>
+    <exitCode>1</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>773</totalRunTimeInMillis>
+</testResults>
+
