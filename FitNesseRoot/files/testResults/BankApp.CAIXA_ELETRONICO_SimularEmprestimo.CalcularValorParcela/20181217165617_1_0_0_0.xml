@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20180127</FitNesseVersion>
+  <rootPath>BankApp.CAIXA_ELETRONICO_SimularEmprestimo.CalcularValorParcela</rootPath>
+    <result>
+    <counts>
+      <right>8</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2018-12-17T16:56:17-02:00</date>
+    <runTimeInMillis>4</runTimeInMillis>
+    <content>&lt;br/&gt;&amp;lt;test page&amp;gt;&lt;br/&gt;EMI equilave ao valor das parcelas mensais de um empréstimo que um cliente paga em determinada data ao banco.&lt;br/&gt;O Aplicativo deverá possuir um simulador para calcular o valor das parcelas mensais, onde o cliente informa o&lt;br/&gt;valor total a financiar, a taxa de juros (em percentual) e o número de parcelas que deseja pagar.&lt;br/&gt;O sistema deverá calcular o EMI - valor das parcelas mensais -, e o valor total com juros que o cliente irá pagar.&lt;br/&gt;&lt;br/&gt;A fórmula matemática para o cálculo do EMI é EMI=P×R×((1+R)^N/((1+R)^N−1)), &lt;br/&gt;onde P é o valor total a financiar, R é a taxa de juros, e N é o número de parcelas mensais.&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="5"&gt;br.ufsc.fit.fixtures.CalculateEMIColumnFixture&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;valor a financiar&lt;/td&gt;
+		&lt;td&gt;taxa de juros&lt;/td&gt;
+		&lt;td&gt;numero de parcelas&lt;/td&gt;
+		&lt;td&gt;valor das parcelas mensais?&lt;/td&gt;
+		&lt;td&gt;valor total a pagar com juros?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;10000.00&lt;/td&gt;
+		&lt;td&gt;0.5334&lt;/td&gt;
+		&lt;td&gt;12&lt;/td&gt;
+		&lt;td class="pass"&gt;862.51&lt;/td&gt;
+		&lt;td class="pass"&gt;10350.09&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;100000000.00&lt;/td&gt;
+		&lt;td&gt;0.3227&lt;/td&gt;
+		&lt;td&gt;36&lt;/td&gt;
+		&lt;td class="pass"&gt;2946725.65&lt;/td&gt;
+		&lt;td class="pass"&gt;106082123.23&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;500.00&lt;/td&gt;
+		&lt;td&gt;0.1250&lt;/td&gt;
+		&lt;td&gt;5&lt;/td&gt;
+		&lt;td class="pass"&gt;100.38&lt;/td&gt;
+		&lt;td class="pass"&gt;501.88&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;3250500.00&lt;/td&gt;
+		&lt;td&gt;0.7665&lt;/td&gt;
+		&lt;td&gt;72&lt;/td&gt;
+		&lt;td class="pass"&gt;58911.94&lt;/td&gt;
+		&lt;td class="pass"&gt;4241659.83&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>CalcularValorParcela</relativePageName>
+          </result>
+  <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>4</totalRunTimeInMillis>
+</testResults>
+

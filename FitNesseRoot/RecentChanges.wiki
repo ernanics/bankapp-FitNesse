@@ -1,3 +1,4 @@
+|BankApp.CAIXA_ELETRONICO_SacarDinheiro.SacarDinheiroFracasso_CartaoBloqueado||16:55:31 Seg, dez 17, 2018|
 |BankApp.CAIXA_ELETRONICO_SacarDinheiro.SacarDinheiroFracasso_ValorInvalido||16:33:09 Seg, dez 17, 2018|
 |BankApp.CAIXA_ELETRONICO_SacarDinheiro.SacarDinheiroFracasso_SenhaInvalida3x||16:32:06 Seg, dez 17, 2018|
 |BankApp.CAIXA_ELETRONICO_SacarDinheiro.SacarDinheiroFracasso_SenhaInvalida2x||16:29:53 Seg, dez 17, 2018|
