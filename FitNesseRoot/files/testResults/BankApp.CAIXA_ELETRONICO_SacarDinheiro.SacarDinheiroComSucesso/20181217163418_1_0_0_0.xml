@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20180127</FitNesseVersion>
+  <rootPath>BankApp.CAIXA_ELETRONICO_SacarDinheiro.SacarDinheiroComSucesso</rootPath>
+    <result>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2018-12-17T16:34:18-02:00</date>
+    <runTimeInMillis>21</runTimeInMillis>
+    <content>&lt;br/&gt;&amp;lt;test page&amp;gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;História de Usuário: &lt;/b&gt;&lt;br/&gt;Eu como cliente de um banco&lt;br/&gt;Quero retirar dinheiro da minha conta corrente&lt;br/&gt;Então realizo um saque utilizando um ATM&lt;br/&gt;&lt;br/&gt;&lt;i&gt;Dados iniciais do cliente:&lt;/i&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="7"&gt;br.ufsc.fit.fixtures.WithDrawnSetUpFixtureTest&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;id&lt;/td&gt;
+		&lt;td&gt;usuario&lt;/td&gt;
+		&lt;td&gt;conta corrente&lt;/td&gt;
+		&lt;td&gt;saldo&lt;/td&gt;
+		&lt;td&gt;numero do cartao&lt;/td&gt;
+		&lt;td&gt;senha&lt;/td&gt;
+		&lt;td&gt;Numero de notas de 5, 10, 20, 50 e 100, disponiveis no caixa eletronico, separados por virgula&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;J.F. Piper&lt;/td&gt;
+		&lt;td&gt;125654-08&lt;/td&gt;
+		&lt;td&gt;90.00&lt;/td&gt;
+		&lt;td&gt;99998888777766665555&lt;/td&gt;
+		&lt;td&gt;123456&lt;/td&gt;
+		&lt;td&gt;0,200,0,150,100&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;b&gt;Cenário de Aceitação:&lt;/b&gt;&lt;br/&gt;&lt;i&gt;O saque é realizado com sucesso.&lt;/i&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3"&gt;ActionFixture&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td colspan="2"&gt;br.ufsc.fit.fixtures.WithDrawActionFixtureTest&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;numero do cartao&lt;/td&gt;
+		&lt;td&gt;99998888777766665555&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;valor para sacar&lt;/td&gt;
+		&lt;td&gt;30&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;press&lt;/td&gt;
+		&lt;td colspan="2"&gt;OK&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;o valor e valido&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;senha&lt;/td&gt;
+		&lt;td&gt;123456&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;Confirmar&lt;/td&gt;
+		&lt;td class="pass"&gt;Operação realizada com sucesso!&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;Saldo atual&lt;/td&gt;
+		&lt;td class="pass"&gt;60.00&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>SacarDinheiroComSucesso</relativePageName>
+          </result>
+  <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>21</totalRunTimeInMillis>
+</testResults>
+
