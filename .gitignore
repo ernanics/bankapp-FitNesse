@@ -22,3 +22,6 @@
 hs_err_pid*
 *.project
 /bin/
+*.classpath
+*.settings
+/FitNesseRoot/files/testresults/
