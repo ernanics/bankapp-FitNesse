@@ -120,7 +120,7 @@ public class ATM {
 		
 		//Fail
 		if ((bill == this.getNextBill(bill))&&(partialAmount>0)&&(firstAttempt == this.getNextBill(firstAttempt))){
-			throw new Exception("The entered amount is invalid!");
+			throw new Exception("O valor informado é inválido!");
 		}
 		
 		//Try with other combination
