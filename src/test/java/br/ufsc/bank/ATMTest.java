@@ -36,7 +36,7 @@ public class ATMTest {
 			atm.withDraw("9999999999999999", 123456, 31);
 			assertEquals(atm.getBank().getAccountByCardNumber("9999999999999999").getBalance(),90.0,0.0);
 		} catch (Exception e) {
-			
+			assertEquals(e.getMessage().equals("O valor informado é inválido!"),true);
 		}
 	}
 	
