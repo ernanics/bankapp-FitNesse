@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20180127</FitNesseVersion>
+  <rootPath>BankApp.CAIXA_ELETRONICO_SacarDinheiro.SacarDinheiroFracasso_SenhaInvalida3x</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>13</ignores>
+      <exceptions>9</exceptions>
+    </counts>
+    <date>2019-01-22T16:25:55-02:00</date>
+    <runTimeInMillis>4</runTimeInMillis>
+    <content>&lt;br/&gt;&amp;lt;test page&amp;gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;História de Usuário: &lt;/b&gt;&lt;br/&gt;Eu como cliente de um banco&lt;br/&gt;Quero retirar dinheiro da minha conta corrente&lt;br/&gt;Então realizo um saque utilizando um ATM&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="7"&gt;br.ufsc.fit.fixtures.WithDrawnSetUpFixtureTest&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;id&lt;hr/&gt; &lt;span class="fit_label"&gt;Missing method, possibly: &lt;ul&gt;&lt;li&gt;public Type idUsuarioContaCorrenteSaldoNumeroDoCartaoSenhaNumeroDeNotasDe5Comma10Comma20Comma50E100CommaDisponiveisNoCaixaEletronicoCommaSeparadosPorVirgula(Type1 id, Type2 usuario, Type3 contaCorrente, Type4 saldo, Type5 numeroDoCartao, Type6 senha, Type7 numeroDeNotasDe5Comma10Comma20Comma50E100CommaDisponiveisNoCaixaEletronicoCommaSeparadosPorVirgula) { }&lt;/li&gt;&lt;/ul&gt;&lt;hr/&gt;In:&lt;ul&gt;&lt;li&gt;br.ufsc.fit.fixtures.WithDrawnSetUpFixtureTest&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;usuario&lt;/td&gt;
+		&lt;td&gt;conta corrente&lt;/td&gt;
+		&lt;td&gt;saldo&lt;/td&gt;
+		&lt;td&gt;numero do cartao&lt;/td&gt;
+		&lt;td&gt;senha&lt;/td&gt;
+		&lt;td&gt;Numero de notas de 5, 10, 20, 50 e 100, disponiveis no caixa eletronico, separados por virgula&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;1&lt;/td&gt;
+		&lt;td class="ignore"&gt;J.F. Piper&lt;/td&gt;
+		&lt;td class="ignore"&gt;125654-08&lt;/td&gt;
+		&lt;td class="ignore"&gt;90.00&lt;/td&gt;
+		&lt;td class="ignore"&gt;99998888777766665555&lt;/td&gt;
+		&lt;td class="ignore"&gt;123456&lt;/td&gt;
+		&lt;td class="ignore"&gt;0,200,0,150,100&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;i&gt;O usuário informou a senha incorretamente duas vezes.&lt;br/&gt;Uma há 2 horas atrás e outra há 3 horas atrás.&lt;/i&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3"&gt;br.ufsc.fit.fixtures.WithDrawnSetUpFixtureTest&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;Numero do cartao&lt;hr/&gt; &lt;span class="fit_label"&gt;Missing method, possibly: &lt;ul&gt;&lt;li&gt;public Type numeroDoCartaoSenhaCorretaNumeroHoraAtras(Type1 numeroDoCartao, Type2 senhaCorreta, Type3 numeroHoraAtras) { }&lt;/li&gt;&lt;/ul&gt;&lt;hr/&gt;In:&lt;ul&gt;&lt;li&gt;br.ufsc.fit.fixtures.WithDrawnSetUpFixtureTest&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;Senha correta&lt;/td&gt;
+		&lt;td&gt;Numero hora atras&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;99998888777766665555&lt;/td&gt;
+		&lt;td class="ignore"&gt;false&lt;/td&gt;
+		&lt;td class="ignore"&gt;2&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;99998888777766665555&lt;/td&gt;
+		&lt;td class="ignore"&gt;false&lt;/td&gt;
+		&lt;td class="ignore"&gt;3&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;b&gt;Cenário de aceitação: &lt;/b&gt;&lt;br/&gt;&lt;i&gt;O saque não é realizado, pois o usuário informou uma senha inválida.&lt;br/&gt;É a segunda vez que o usuário informa uma senha inválida nas últimas 72 horas&lt;/i&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3"&gt;ActionFixture&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td colspan="2"&gt;br.ufsc.fit.fixtures.WithDrawActionFixtureTest&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;enter&lt;hr/&gt; &lt;span class="fit_label"&gt;Could not find method: numeroDoCartao.&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;numero do cartao&lt;/td&gt;
+		&lt;td&gt;99998888777766665555&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;enter&lt;hr/&gt; &lt;span class="fit_label"&gt;Could not find method: valorParaSacar.&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;valor para sacar&lt;/td&gt;
+		&lt;td&gt;30&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;press&lt;hr/&gt; &lt;span class="fit_label"&gt;Could not find method: OK.&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="2"&gt;OK&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;check&lt;hr/&gt; &lt;span class="fit_label"&gt;Could not find method: oValorEValido.&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;o valor e valido&lt;/td&gt;
+		&lt;td&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;enter&lt;hr/&gt; &lt;span class="fit_label"&gt;Could not find method: senha.&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;senha&lt;/td&gt;
+		&lt;td&gt;123457&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;check&lt;hr/&gt; &lt;span class="fit_label"&gt;Could not find method: Confirmar.&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;Confirmar&lt;/td&gt;
+		&lt;td&gt;Senha inválida! Seu cartão foi bloqueado por motivos de segurança! Entre em contato com a central de serviços para maiores informações.&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;check&lt;hr/&gt; &lt;span class="fit_label"&gt;Could not find method: SaldoAtual.&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;Saldo atual&lt;/td&gt;
+		&lt;td&gt;90.00&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>SacarDinheiroFracasso_SenhaInvalida3x</relativePageName>
+          </result>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>4</totalRunTimeInMillis>
+</testResults>
+
