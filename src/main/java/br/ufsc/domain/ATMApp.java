@@ -3,5 +3,5 @@ package br.ufsc.domain;
 import br.ufsc.model.ATM;
 
 public final class ATMApp {
-	public static ATM atm;
+	public static ATM atm = new ATM();
 }

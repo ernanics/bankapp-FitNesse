@@ -1,3 +1,5 @@
+|BankApp.CAIXA_ELETRONICO_SacarDinheiro.SacarDinheiroComSucesso.SacarDinheiro_SemSaldo||18:39:06 Qui, jan 31, 2019|
+|BankApp||17:55:44 Sex, jan 25, 2019|
 |BankApp.CAIXA_ELETRONICO_SacarDinheiro.SacarDinheiroFracasso_CartaoBloqueado||16:55:31 Seg, dez 17, 2018|
 |BankApp.CAIXA_ELETRONICO_SacarDinheiro.SacarDinheiroFracasso_ValorInvalido||16:33:09 Seg, dez 17, 2018|
 |BankApp.CAIXA_ELETRONICO_SacarDinheiro.SacarDinheiroFracasso_SenhaInvalida3x||16:32:06 Seg, dez 17, 2018|
@@ -6,7 +8,6 @@
 |BankApp.CAIXA_ELETRONICO_SacarDinheiro.SacarDinheiroComSucesso||16:27:53 Seg, dez 17, 2018|
 |BankApp.CAIXA_ELETRONICO_SacarDinheiro||14:41:35 Seg, dez 17, 2018|
 |BankApp.CAIXA_ELETRONICO_SimularEmprestimo.CalcularValorParcela||11:22:01 Seg, dez 17, 2018|
-|BankApp||11:07:19 Seg, dez 17, 2018|
 |BankApp.CAIXA_ELETRONICO_SimularEmprestimo||22:14:18 Sun, Dec 16, 2018|
 |BankApp.CAIXAELETRONICO_Sacar||22:10:39 Sun, Dec 16, 2018|
 |FrontPage||22:09:02 Sun, Dec 16, 2018|
